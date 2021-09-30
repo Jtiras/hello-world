@@ -1,11 +1,11 @@
 #https://en.wikipedia.org/wiki/Flowchart#/media/File:LampFlowchart.svg
 
-plug = True
-bulb = True
+plug = input("Is the lamp plugged in?(Y/N) ")
+bulb = input("Is the bulb burned out?(Y/N) ")
 
-if not(plug):
+if plug == "N":
     print("Plug in lamp")
-elif plug and bulb:
+elif plug == "N" and bulb == "Y":
     print("Replace bulb")
 else:
     print("Repair lamp")
