@@ -1,0 +1,11 @@
+#https://en.wikipedia.org/wiki/Flowchart#/media/File:LampFlowchart.svg
+
+plug = True
+bulb = True
+
+if not(plug):
+    print("Plug in lamp")
+elif plug and bulb:
+    print("Replace bulb")
+else:
+    print("Repair lamp")
